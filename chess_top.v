@@ -105,7 +105,7 @@ localparam PIECE_KING	= 3'b110;
 localparam COLOR_WHITE	= 0;
 localparam COLOR_BLACK	= 1;
 
-reg [3:0] board[63:0];
+reg [3:0] board_[63:0];
 
 wire [255:0] passable_board;
 

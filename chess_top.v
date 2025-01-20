@@ -116,7 +116,7 @@ end
 endgenerate
 
 /* Init game logic module and its output wires */
-wire[5:0] board_change_addr;
+wire[5:0] board_change_addr_2;
 wire[3:0] board_change_piece;
 wire[5:0] cursor_addr;
 wire[5:0] selected_piece_addr;

@@ -78,8 +78,8 @@ assign debounce_clk = DIV_CLK[11]; // 24.4 kHz; needs to match game_logic for th
 /* Init debouncer */
 wire BtnC_pulse, BtnU_pulse, BtnR_pulse, BtnL_pulse, BtnD_pulse;
 input_debounce L_debounce(
-	.CLK(debounce_clk), .RESET(Reset),
-	.Btn(BtnL), .Btn_pulse(BtnL_pulse));
+	.CLK(debounce_clk), .RESET(Reset2),
+	.Btn(BtnL), .Btn_pulse(Btn2L_pulse));
 input_debounce R_debounce(
 	.CLK(debounce_clk), .RESET(Reset),
 	.Btn(BtnR), .Btn_pulse(BtnR_pulse));
